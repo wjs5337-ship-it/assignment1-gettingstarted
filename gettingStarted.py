@@ -14,9 +14,12 @@ def welcome_assignment_answers(question):
     # 2
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "pcap"
-
+    # 4
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
+
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
     else:
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
