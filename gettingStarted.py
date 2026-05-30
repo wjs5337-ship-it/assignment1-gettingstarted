@@ -25,7 +25,10 @@ def welcome_assignment_answers(question):
         answer = "1d1408254cf15b690cf702ee7611c7f9e5e87ee829b57941fe012d40480d8869"
     # 7
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-        answer = "Yes"
+        answer = "No"
+
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+        answer = 5
 
     else:
         ### you should understand why this else case should be included
@@ -39,7 +42,7 @@ def welcome_assignment_answers(question):
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
     # debug_question = "Are encoding and encryption the same? - Yes/No"
-    debug_question = "What is the SHA256 hashing value of your NYU email and use the answer in your code - "
+    debug_question = "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number"
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
