@@ -5,11 +5,16 @@
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
+    # 3
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
+    # 5
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
-    else: 
+
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"
+    else:
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue and catch errors
@@ -20,7 +25,8 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
-    debug_question = "Are encoding and encryption the same? - Yes/No"
+    # debug_question = "Are encoding and encryption the same? - Yes/No"
+    debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
